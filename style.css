@@ -190,14 +190,16 @@ html, body {
 }
 
 @media (max-width: 767px) {
-    .page {
+   .page {
+        position: relative;
+        top: 30rem;
         display: grid;
         grid-template-rows: 20rem 20rem 20rem;
         grid-template-columns:100%;
         grid-template-areas:
         'mobile-header'
         'mobile-ratings'
-        'reviews'
+        'reviews';
     }
 
     .body {
